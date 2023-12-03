@@ -37,7 +37,10 @@ function App() {
   }, [])
   return (
     <div className="flex flex-col h-screen">
-      {/* main container */}
+      {/* main container 
+      <div class="flex w-screen h-screen p-10 space-x-4 overflow-auto text-gray-700">
+	<div class="flex flex-col flex-shrink-0 w-64 bg-gray-200 border border-gray-300">
+      */}
       <div className="flex-1 flex flex-row overflow-y-hidden">
         <nav className="order-first  overflow-y-auto">
           <Sidebar />
